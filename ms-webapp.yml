@@ -1,12 +1,14 @@
-server:
-  port: 8080
+#Toute la configuration complexe doit etre gardee en local pour gagner du temps => duplication
+# On accede uniquement au champs properties supplementaires crees a l aide d un dto
 
-
-#-----------EUREKA----------------
-#--------------Eureka Server----------------
-eureka:
-  client:
-    register-with-eureka: true
-    fetch-registry: true
-    service-url:
-      defaultZone: http://localhost:8761/eureka/
+#server:
+#  port: 8080
+#
+##-----------EUREKA----------------
+##--------------Eureka Server----------------
+#eureka:
+#  client:
+#    register-with-eureka: true
+#    fetch-registry: true
+#    service-url:
+#      defaultZone: http://localhost:8761/eureka/
