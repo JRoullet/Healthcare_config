@@ -1,0 +1,37 @@
+#Toute la configuration complexe doit etre gardee en local pour gagner du temps => duplication
+# On accede uniquement au champs properties supplementaires crees a l aide d un dto
+
+#server:
+#  port: 8080
+#
+##-----------EUREKA----------------
+##--------------Eureka Server----------------
+#eureka:
+#  client:
+#    register-with-eureka: true
+#    fetch-registry: true
+#    service-url:
+#      defaultZone: http://localhost:8761/eureka/
+
+
+
+
+#server:
+#  port: 8080
+#spring:
+#  application:
+#    name: ms-webapp
+#  
+#  #------ Imported config must be quite empty to avoid loosing time from a/r -----#
+#  config:
+#    import:
+#      configserver:http://localhost:8888/
+#
+##-----------EUREKA----------------
+##--------------Eureka Server----------------
+#eureka:
+#  client:
+#    register-with-eureka: true
+#    fetch-registry: true
+#    service-url:
+#      defaultZone: http://localhost:8761/eureka/

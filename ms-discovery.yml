@@ -1,6 +1,6 @@
 server:
   port: 8761
-
+#EUREKA Server -- Local Configuration
 eureka:
   instance:
     hostname: localhost
@@ -9,6 +9,7 @@ eureka:
     registerWithEureka: false
     service-url:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+#ACTUATOR
 management:
   endpoints:
     web:
